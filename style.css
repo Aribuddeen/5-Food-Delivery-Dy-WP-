@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----navbar---- */
+.navbar{
+    background-color: rgb(240, 237, 229);
+}
+.navbar-brand{
+    font-size: 20px;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin: 0px 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(22, 126, 154);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background:  rgb(22, 126, 154);
+    color: white;
+    font-weight: 700;
+}
+
+/* ----home---- */
+#home{
+    background-image: url('./25\ Bg\ Ray.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.home-list{
+    text-align: center;
+}
+.home-list h1{
+    padding-top: 200px;
+    font-size: 80px;
+}
+.home-list button{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+    margin: 30px 0px;
+}
+.home-list button:hover{
+    box-shadow: 0 8px 10px rgba(35, 33, 33, 0.2);
+}
+/* ----after-home---- */
+/* .af-hm {}
+.af-hm img{} */
+/* ----Trending---- */
+.tren-heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+.tren-heading p{
+    color: orangered;
+    font-weight: 600;
+}
+.trned{
+    text-align: center;
+}
+.trned img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+.trned p{
+    margin: 0px 0px;
+    color: rgb(70, 69, 69);
+    /* margin-bottom: 25px; */
+}
+.sociaty {
+    padding: 30px 0px;
+}
+
+.sociaty img{
+    height: 80%;
+    width: 100%;
+}
+.trned{
+    margin: 30px 0px;
+}
+
+#pro{
+    background-image: url('./26\ Bg\ Ray.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.product-list{
+    text-align: center;
+}
+.product-list h1{
+    padding-top: 200px;
+    font-size: 60px;
+}
+.product-list p{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.product-list button{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.product-list button:hover{
+    box-shadow: 0 8px 10px rgba(35, 33, 33, 0.2);
+}
+.bt{
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: orangered;
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-shadow: none;
+    transition: box-shadow 0.5s;
+}
+.bt:hover{
+    box-shadow: 0 8px 10px rgba(35, 33, 33, 0.2);
+}
